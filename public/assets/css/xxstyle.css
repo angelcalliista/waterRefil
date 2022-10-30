@@ -1,0 +1,184 @@
+.navbar .nav-item .nav-link {
+    font-size: 20px;
+    color: #044BD9;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.card-content .card {
+    /* background-image: linear-gradient(to bottom, #00A3FF, #B88A44, #F9F295, #E0AA3E); */
+    /* background-image: linear-gradient(to bottom, #00a2ff, #00a2ff8a, #0066FF); */
+    /* background-color: #1D5576; */
+    background-image: radial-gradient(circle, #00a2ff1e, #00A3FF);
+}
+
+.card-content .card-images {
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+.card .card-title {
+    color: #000080;
+}
+
+.title {
+    color: #000080;
+}
+
+.container .flex-container {
+    display: flex;
+}
+
+.container .flex-container .btn-content {
+    margin-left: 10px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #044BD9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+}
+
+.card-outlet .card .card-body .outlet-images {
+    width: 40px;
+}
+
+.card-outlet .card a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-outlet .card a:hover {
+    /* background-image: linear-gradient(to bottom, #00a2ff, #00a2ff8a, #0066FF); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.card-content .card {
+    width: 16rem;
+    height: 22rem;
+}
+
+.card-content .card a {
+    text-decoration: none;
+}
+
+.card-content .card a:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 30px;
+}
+
+.card-content .card a h2 {
+    font-family: "Trirong", serif;
+    font-size: 30px;
+}
+
+.home-img {
+    width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-content .card {
+        width: 14rem;
+        height: 20rem;
+    }
+    .card-content .card a:hover {
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        width: 14rem;
+        height: 20rem;
+    }
+    .card-content .card a img {
+        padding-right: 35px;
+        padding-top: 50px;
+    }
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+
+/*Style Footer*/
+
+#Footer {
+    background-image: linear-gradient(to bottom, #c4f0ff00, #1e8fff7c, #0066FF, #1C2842);
+    /* color: #fbf2f2; */
+    color: #333;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box a {
+    /* color: #fbf2f2; */
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-box a:hover {
+    color: #aa0f0a;
+    text-decoration: none;
+}
+
+.footer-box .footer-contact {
+    /* color: #fbf2f2; */
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-box img {
+    width: 100px;
+}
+
+.footer-box p i {
+    padding-right: 10px;
+}
+
+.footer-box .form-control {
+    box-shadow: none;
+    border: none;
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+.footer-box .btn {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    margin-top: 15px;
+    background-image: #6d6060;
+    color: #fbf2f2;
+}
+
+.footer-box .icon-footer {
+    width: 2rem;
+}
+
+
+/*End Footer*/
